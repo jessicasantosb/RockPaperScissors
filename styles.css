@@ -1,0 +1,86 @@
+* {margin: 0; padding: 0;}
+
+body {
+    text-align: center;    
+    font-family: monospace;
+}
+/* HEADER */
+header {
+    background-color: black;
+    height: 120px;
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+
+header h1 {
+    color: yellow;
+    font-family: 'Press Start 2P', cursive;
+    line-height: 1.5;
+}
+
+/* GAME OPTIONS */
+img {
+    height: 200px;
+    width: 200px;
+}
+
+.btn {
+     border: 20px solid;
+     margin: 50px 15px;
+     box-shadow: rgb(235, 247, 101) 3px 3px 3px;
+}
+
+@media (max-width: 850px) {
+    img {
+        height: 170px;
+        width: 170px;
+    }
+
+    .btn {
+        border: 15px solid;
+    }
+}
+
+@media (max-width: 750px) {
+    img {
+        height: 120px;
+        width: 120px;
+    }
+
+    .btn {
+        margin: 2%
+    }
+}
+
+
+/* GAME RESULT */
+section {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    height: 400px;
+    padding:  40px 10% 0 10%;
+}
+
+h5 {
+    font-size: 2.75rem;
+    text-shadow:rgb(235, 247, 101) 3px 3px 3px;
+}
+
+#result {
+    padding:  0 10% 40px 10%;
+    font-size: 2.75rem;
+    text-shadow:rgb(235, 247, 101) 3px 3px 3px;
+}
+
+/* FOOTER */
+footer {
+    height: 120px;
+    padding-top: 70px;
+    background-color: black;
+}
+
+footer p {
+    font-family: 'Press Start 2P', cursive;
+    color: yellow;
+}
