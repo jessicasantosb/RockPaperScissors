@@ -15,31 +15,36 @@
         <h1>ROCK PAPER SCISSORS</h1>
     </header>
 
-    <div>
-        <button class="btn" id="rockBtn"><img src="images/rock.png"></button>
-        <button class="btn" id="paperBtn"><img src="images/paper.png"></button>
-        <button class="btn" id="scissorsBtn"><img src="images/scissors.png"></button>
-    </div>
-
-    <section>
-        <div id="player-container">
-            <img id="imgPlayer" src="images/question.png">            
-            <h2>Player score:</h2>
-            <h5 class="pScore">0</h5>
+    <main>
+        <div>
+            <button class="btn" id="rockBtn"><img src="images/rock.png"></button>
+            <button class="btn" id="paperBtn"><img src="images/paper.png"></button>
+            <button class="btn" id="scissorsBtn"><img src="images/scissors.png"></button>
         </div>
-        <div id="player-container">
-            <img id="imgComputer" src="images/question.png">
-            <h2>Computer score:</h2>
-            <h5 class="cScore">0</h5>
-        </div>    
-    </section>
 
-    <h2 id="result"></h2><br> 
+        <section>
+            <div id="player-container">
+                <img id="imgPlayer" src="images/question.png">            
+                <h2>Player score:</h2>
+                <h5 class="pScore">0</h5>
+            </div>
+            <div id="player-container">
+                <img id="imgComputer" src="images/question.png">
+                <h2>Computer score:</h2>
+                <h5 class="cScore">0</h5>
+            </div>    
+        </section>
+
+        <h2 id="result"></h2><br> 
+    </main>
 
     <footer>
-        <p>&copy; 2023 jessicasantosb</p>
+        <p>&copy; 
+            <script>
+                document.write(new Date().getFullYear())
+            </script>
+         jessicasantosb</p>
     </footer> 
-
 <script src="script.js"></script>    
 </body>
 </html>
